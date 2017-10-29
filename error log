@@ -1,0 +1,107 @@
+vagrant@vagrant:/vagrant$ yarn start-android
+yarn start-android v0.27.5
+$ ./scripts/development/start-android.sh
+
+/vagrant/frontend-android/src/containers/screens/CompanyScreen.js
+  18:30  error  Unable to resolve path to module '../components'         import/no-unresolved
+  18:30  error  Missing file extension for "../components"               import/extensions
+  19:23  error  Unable to resolve path to module '../styles/List.style'  import/no-unresolved
+
+/vagrant/frontend-android/src/containers/screens/DashboardScreen.js
+  18:26  error  Unable to resolve path to module '../components'                                 import/no-unresolved
+  18:26  error  Missing file extension for "../components"                                       import/extensions
+  19:24  error  Unable to resolve path to module '../components/HeaderLeft'                      import/no-unresolved
+  19:24  error  Missing file extension for "../components/HeaderLeft"                            import/extensions
+  20:34  error  Unable to resolve path to module '../styles/screenStyles/DashboardScreen.style'  import/no-unresolved
+
+/vagrant/frontend-android/src/containers/screens/ErrorScreen.js
+  17:30  error  Unable to resolve path to module '../styles/screenStyles/ErrorScreen.style'  import/no-unresolved
+
+/vagrant/frontend-android/src/containers/screens/LeaveScreen.js
+  28:30  error  Unable to resolve path to module '../components'                              import/no-unresolved
+  28:30  error  Missing file extension for "../components"                                    import/extensions
+  29:24  error  Unable to resolve path to module '../components/HeaderLeft'                   import/no-unresolved
+  29:24  error  Missing file extension for "../components/HeaderLeft"                         import/extensions
+  30:26  error  Unable to resolve path to module '../styles/Default.style'                    import/no-unresolved
+  31:25  error  Unable to resolve path to module '../../../frontend-common/data/formatLeave'  import/no-unresolved
+  31:25  error  Missing file extension for "../../../frontend-common/data/formatLeave"        import/extensions
+  32:32  error  Unable to resolve path to module '../components/LeaveScreenContent'           import/no-unresolved
+  32:32  error  Missing file extension for "../components/LeaveScreenContent"                 import/extensions
+  33:30  error  Unable to resolve path to module '../styles/screenStyles/LeaveScreen.style'   import/no-unresolved
+
+/vagrant/frontend-android/src/containers/screens/LoadingScreen.js
+  28:32  error  Unable to resolve path to module '../styles/screenStyles/LoadingScreen.style'  import/no-unresolved
+  29:23  error  Unable to resolve path to module '../images/typ-logo.png'                      import/no-unresolved
+  30:23  error  Unable to resolve path to module '../images/next.png'                          import/no-unresolved
+  31:27  error  Unable to resolve path to module '../images/typ-text.png'                      import/no-unresolved
+  32:32  error  Unable to resolve path to module '../images/typ-text-green.png'                import/no-unresolved
+
+/vagrant/frontend-android/src/containers/screens/PayScreen.js
+  21:30  error  Unable to resolve path to module '../components'                           import/no-unresolved
+  21:30  error  Missing file extension for "../components"                                 import/extensions
+  22:24  error  Unable to resolve path to module '../components/HeaderLeft'                import/no-unresolved
+  22:24  error  Missing file extension for "../components/HeaderLeft"                      import/extensions
+  23:23  error  Unable to resolve path to module '../styles/List.style'                    import/no-unresolved
+  24:26  error  Unable to resolve path to module '../styles/Default.style'                 import/no-unresolved
+  25:30  error  Unable to resolve path to module '../components/PayScreenContent'          import/no-unresolved
+  25:30  error  Missing file extension for "../components/PayScreenContent"                import/extensions
+  26:29  error  Unable to resolve path to module '../components/PayScreenHeader'           import/no-unresolved
+  26:29  error  Missing file extension for "../components/PayScreenHeader"                 import/extensions
+  27:28  error  Unable to resolve path to module '../styles/screenStyles/PayScreen.style'  import/no-unresolved
+
+/vagrant/frontend-android/src/containers/screens/ProfileScreen.js
+  17:20  error  Unable to resolve path to module '../components'                               import/no-unresolved
+  17:20  error  Missing file extension for "../components"                                     import/extensions
+  18:25  error  Unable to resolve path to module '../components/DividedLine'                   import/no-unresolved
+  18:25  error  Missing file extension for "../components/DividedLine"                         import/extensions
+  19:23  error  Unable to resolve path to module '../styles/List.style'                        import/no-unresolved
+  20:32  error  Unable to resolve path to module '../styles/screenStyles/ProfileScreen.style'  import/no-unresolved
+
+/vagrant/frontend-android/src/Routes.js
+  17:27  error  Unable to resolve path to module './screens/LoadingScreen'     import/no-unresolved
+  17:27  error  Missing file extension for "./screens/LoadingScreen"           import/extensions
+  18:29  error  Unable to resolve path to module './screens/DashboardScreen'   import/no-unresolved
+  18:29  error  Missing file extension for "./screens/DashboardScreen"         import/extensions
+  19:25  error  Unable to resolve path to module './screens/ErrorScreen'       import/no-unresolved
+  19:25  error  Missing file extension for "./screens/ErrorScreen"             import/extensions
+  20:27  error  Unable to resolve path to module './screens/CompanyScreen'     import/no-unresolved
+  20:27  error  Missing file extension for "./screens/CompanyScreen"           import/extensions
+  21:30  error  Unable to resolve path to module './screens/AddCompanyScreen'  import/no-unresolved
+  21:30  error  Missing file extension for "./screens/AddCompanyScreen"        import/extensions
+  22:25  error  Unable to resolve path to module './screens/LeaveScreen'       import/no-unresolved
+  22:25  error  Missing file ßextension for "./screens/LeaveScreen"             import/extensions
+  23:23  error  Unable to resolve path to module './screens/PayScreen'         import/no-unresolved
+  23:23  error  Missing file extension for "./screens/PayScreen"               import/extensions
+  24:27  error  Unable to resolve path to module './screens/ProfileScreen'     import/no-unresolved
+  24:27  error  Missing file extension for "./screens/ProfileScreen"           import/extensions
+  25:24  error  Unable to resolve path to module './screens/HelpScreen'        import/no-unresolved
+  25:24  error  Missing file extension for "./screens/HelpScreen"              import/extensions
+
+/vagrant/frontend-android/test/src/Routes.test.js
+  12:27  error  Unable to resolve path to module '../../src/screens/LoadingScreen'    import/no-unresolved
+  12:27  error  Missing file extension for "../../src/screens/LoadingScreen"          import/extensions
+  13:29  error  Unable to resolve path to module '../../src/screens/DashboardScreen'  import/no-unresolved
+  13:29  error  Missing file extension for "../../src/screens/DashboardScreen"        import/extensions
+
+✖ 63 problems (63 errors, 0 warnings)
+
+{
+    "version": "4.7.0",
+    "roots": [
+        "/vagrant"
+    ]
+}
+{
+    "version": "4.7.0",
+    "shutdown-server": true
+}
+chmod: cannot access './android/app/build/intermediates/': No such file or directory
+chmod: cannot access './node_modules/react-native-code-push/android/app/build/intermediates/': No such file or directory
+chmod: cannot access './node_modules/react-native-google-analytics-bridge/android/app/build/intermediates/': No such file or directory
+Scanning 1236 folders for symlinks in /vagrant/node_modules (216ms)
+Starting JS server...
+Building and installing the app on the device (cd android && ./gradlew installDebug)...
+Could not install the app on the device, read the error above for details.
+Make sure you have an Android emulator running or a device connected and have
+set up your Android development environment:
+https://facebook.github.io/react-native/docs/android-setup.html
